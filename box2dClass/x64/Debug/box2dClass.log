@@ -1,0 +1,4 @@
+﻿  MainEngine.cpp
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  box2dClass.vcxproj -> D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\x64\Debug\engine.exe
