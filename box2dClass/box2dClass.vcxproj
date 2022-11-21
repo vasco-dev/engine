@@ -24,7 +24,7 @@
     <ProjectGuid>{1f95b5ce-261e-41b7-9ab2-79e729078e8b}</ProjectGuid>
     <RootNamespace>box2dClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>engine</ProjectName>
+    <ProjectName>box2dClass</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,7 +143,7 @@
     <ClCompile Include="MainEngine.cpp" />
     <ClCompile Include="PlayerControlledEntity.cpp" />
     <ClCompile Include="SDLWrapper.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="GameLoop.cpp" />
     <ClCompile Include="TextureHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -152,6 +152,7 @@
     <ClInclude Include="BulletEntity.h" />
     <ClInclude Include="ControlledEntity.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="GameLoop.h" />
     <ClInclude Include="InitError.h" />
     <ClInclude Include="MainEngine.h" />
     <ClInclude Include="PlayerControlledEntity.h" />

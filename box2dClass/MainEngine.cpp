@@ -170,3 +170,6 @@ bool MainEngine::Clear() {
 	return true;
 }
 
+int main(int argv, char** args) {
+	return 0;
+}

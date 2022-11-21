@@ -21,7 +21,7 @@
     <ClCompile Include="MainEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="GameLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="InitError.cpp">
@@ -75,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Dependencies\include\box2d\b2_user_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
