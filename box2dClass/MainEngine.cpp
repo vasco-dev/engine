@@ -17,11 +17,12 @@ b2World MainEngine::_worldInstance = b2World(_worldGravity);
 
 b2DestructionListener* MainEngine::_destructionListener;
 
-static PlayerControlledEntity* TESTENTITY = nullptr;
-static BackgroundEntity* bgEntity = nullptr;
+//static PlayerControlledEntity* playerEntity = nullptr;
+//static BackgroundEntity* bgEntity = nullptr;
 
 MainEngine::MainEngine() {
 	_engineInstance = this;
+	Init();
 	
 }
 
@@ -86,9 +87,6 @@ bool MainEngine::Init() {
 void MainEngine::Start() {
 
 	_worldInstance.SetDestructionListener(_destructionListener);
-
-	bgEntity = new BackgroundEntity();
-	TESTENTITY = new PlayerControlledEntity();
 
 	std::cout << "...START..." << std::endl;
 
@@ -170,6 +168,6 @@ bool MainEngine::Clear() {
 	return true;
 }
 
-int main(int argv, char** args) {
-	return 0;
-}
+//int main(int argv, char** args) {
+//	return 0;
+//}

@@ -5,40 +5,15 @@ D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlled
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BackgroundEntity.cpp(33,23): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BackgroundEntity.cpp(34,23): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BackgroundEntity.cpp(88,13): warning C4305: 'argument': truncation from 'double' to 'float'
-  BulletEntity.cpp
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BulletEntity.cpp(44,21): warning C4305: '=': truncation from 'double' to 'float'
-  ControlledEntity.cpp
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-  Entity.cpp
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\Entity.cpp(56,72): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\Entity.cpp(56,72): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\Entity.cpp(56,85): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\Entity.cpp(56,85): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-  GameLoop.cpp
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-  InitError.cpp
   MainEngine.cpp
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   PlayerControlledEntity.cpp
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(145,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(145,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(173,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(173,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  SDLWrapper.cpp
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.cpp(4,61): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-  TextureHandler.cpp
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\TextureHandler.cpp(50,30): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\TextureHandler.cpp(50,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\TextureHandler.cpp(50,40): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\TextureHandler.cpp(50,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\TextureHandler.cpp(54,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\TextureHandler.cpp(55,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(147,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(147,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(175,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(175,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Generating Code...
-  box2dClass.vcxproj -> D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\x64\Debug\box2dClass.exe
+  box2dClass.vcxproj -> D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\x64\Debug\box2dClass.lib

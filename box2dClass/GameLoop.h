@@ -9,6 +9,7 @@ class GameLoop
 		inline static GameLoop* GetInstance() { return (_gameLoopInstance != nullptr) ? _gameLoopInstance : new GameLoop(); };
 	
 	public:
+		void StartGameLoop();
 		void RunGameLoop();
 
 

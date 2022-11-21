@@ -19,7 +19,7 @@ BulletEntity::BulletEntity() : ControlledEntity() {
 
 	vel = -1000;
 
-	std::cout << "bullet created: " << this << std::endl;
+	//std::cout << "bullet created: " << this << std::endl;
 
 	EntityStart();
 

@@ -5,11 +5,13 @@ GameLoop* GameLoop::_gameLoopInstance = nullptr;
 GameLoop::GameLoop() {
 	return;
 }
-
-void GameLoop::RunGameLoop(){
-
+void GameLoop::StartGameLoop() {
 	MainEngine::GetInstance()->Init();
 	MainEngine::GetInstance()->Start();
+	return;
+}
+
+void GameLoop::RunGameLoop(){
 
 	while (MainEngine::GetInstance()->GetIsRunning()) {
 		MainEngine::GetInstance()->EventUpdate();

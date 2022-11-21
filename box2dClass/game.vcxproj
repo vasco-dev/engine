@@ -19,12 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="PlayerCharacter.cpp" />
+    <ClCompile Include="start.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="box2dClass.vcxproj">
       <Project>{1f95b5ce-261e-41b7-9ab2-79e729078e8b}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="PlayerCharacter.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -122,8 +128,8 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\lib\;D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\x64\Debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(CoreLibraryDependencies);box2d.lib;SDL2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)x64\Debug\;$(SolutionDir)Dependencies\lib\;$(SolutionDir)box2dClass\x64\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);box2d.lib;SDL2.lib;box2dClass.lib</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>

@@ -1,6 +1,12 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (box2dClass.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-main.obj : error LNK2019: unresolved external symbol "private: __cdecl GameLoop::GameLoop(void)" (??0GameLoop@@AEAA@XZ) referenced in function "public: static class GameLoop * __cdecl GameLoop::GetInstance(void)" (?GetInstance@GameLoop@@SAPEAV1@XZ)
-main.obj : error LNK2019: unresolved external symbol "public: void __cdecl GameLoop::RunGameLoop(void)" (?RunGameLoop@GameLoop@@QEAAXXZ) referenced in function main
-main.obj : error LNK2001: unresolved external symbol "private: static class GameLoop * GameLoop::_gameLoopInstance" (?_gameLoopInstance@GameLoop@@0PEAV1@EA)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\x64\Debug\game.exe : fatal error LNK1120: 3 unresolved externals
+  Background.cpp
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PlayerCharacter.cpp
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  start.cpp
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  game.vcxproj -> D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\x64\Debug\game.exe

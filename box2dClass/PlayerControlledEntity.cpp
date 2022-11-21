@@ -22,6 +22,8 @@ PlayerControlledEntity::PlayerControlledEntity() : ControlledEntity() {
 
 	vel = 10.f;
 
+	_bulletList.reserve(_maxBulletCount);
+
 	EntityStart();
 }
 void  PlayerControlledEntity::EntityStart(){
@@ -184,7 +186,7 @@ bool PlayerControlledEntity::Attack(){
 	 
 	_bulletList.push_back(bullet);
 
-	if (_bulletList.size() > _bulletList.max_size()) {
+	if (_bulletList.size() >= _maxBulletCount) {
 		BulletEntity* tempBullet = _bulletList.front();
 		tempBullet->~BulletEntity();
 		_bulletList.erase(_bulletList.begin());
