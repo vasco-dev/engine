@@ -129,12 +129,12 @@ void MainEngine::Update() {
 		entity->EntityUpdate();
 	}
 
-	_worldInstance.Step(1/30.f, 8,8);
+	_worldInstance.Step(1/60.f, 8,3);
 
 
 }
 void MainEngine::RenderUpdate() {
-	SDL_Delay(1);	
+	SDL_Delay(16.6f);	
 	SDL_RenderClear(_currentRenderer);
 
 	SDL_SetRenderDrawColor(_currentRenderer, 5, 5, 50, 255);	

@@ -1,16 +1,17 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   BackgroundEntity.cpp
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BackgroundEntity.cpp(33,23): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BackgroundEntity.cpp(34,23): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\BackgroundEntity.cpp(88,13): warning C4305: 'argument': truncation from 'double' to 'float'
   MainEngine.cpp
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\MainEngine.cpp(137,12): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
   PlayerControlledEntity.cpp
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\SDLWrapper.h(8,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.h(41,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(147,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(147,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 D:\Users\itzov\Desktop\escolinha\3rd\AGPT\box2dClass\box2dClass\PlayerControlledEntity.cpp(175,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data

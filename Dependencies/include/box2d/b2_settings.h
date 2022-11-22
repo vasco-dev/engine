@@ -20,6 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#ifndef B2_USER_SETTINGS
+#define B2_USER_SETTINGS true;
+#endif
+
 #ifndef B2_SETTINGS_H
 #define B2_SETTINGS_H
 
@@ -46,7 +50,7 @@
 
 /// You can use this to change the length scale used by your game.
 /// For example for inches you could use 39.4.
-#define b2_lengthUnitsPerMeter 100.f
+#define b2_lengthUnitsPerMeter 1.f
 
 /// The maximum number of vertices on a convex polygon. You cannot increase
 /// this too much because b2BlockAllocator has a maximum object size.

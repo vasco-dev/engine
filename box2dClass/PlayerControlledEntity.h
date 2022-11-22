@@ -38,7 +38,7 @@ class PlayerControlledEntity : public ControlledEntity
 		bool _holdMoveLeft = false;
 		bool _holdMoveRight = false;
 
-		b2Vec2 bulletOffset = { _tileWidth / 2 - 20, -30 };
+		b2Vec2 bulletOffset = { _tileWidth / 2, -30 };
 
 		std::vector<BulletEntity*> _bulletList;
 		int _maxBulletCount = 5;

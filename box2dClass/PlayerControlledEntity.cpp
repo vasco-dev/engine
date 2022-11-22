@@ -20,7 +20,7 @@ PlayerControlledEntity::PlayerControlledEntity() : ControlledEntity() {
 
 	startPos = b2Vec2(96, 96);
 
-	vel = 10.f;
+	vel = 2000.f;
 
 	_bulletList.reserve(_maxBulletCount);
 

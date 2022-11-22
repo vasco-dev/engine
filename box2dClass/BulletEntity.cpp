@@ -17,7 +17,7 @@ BulletEntity::BulletEntity() : ControlledEntity() {
 
 	startPos = b2Vec2(0,0);
 
-	vel = -1000;
+	vel = -10000;
 
 	//std::cout << "bullet created: " << this << std::endl;
 

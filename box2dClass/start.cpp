@@ -9,7 +9,7 @@ static Background* _background = nullptr;
 static PlayerCharacter* _playerCharacter = nullptr;
 
 void AddEntities() {
-	MainEngine::GetInstance();
+	//MainEngine::GetInstance();
 
 	_background = new Background;
 	_playerCharacter = new PlayerCharacter;

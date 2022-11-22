@@ -9,8 +9,6 @@
 #include "sdl2/SDL_events.h"
 #include "sdl2/SDL_video.h"
 
-
-
 #include <list>
 
 class Entity;

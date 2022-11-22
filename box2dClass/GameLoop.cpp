@@ -7,7 +7,7 @@ GameLoop::GameLoop() {
 }
 void GameLoop::StartGameLoop() {
 	MainEngine::GetInstance()->Init();
-	MainEngine::GetInstance()->Start();
+	//MainEngine::GetInstance()->Start();
 	return;
 }
 
