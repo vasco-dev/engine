@@ -26,7 +26,6 @@ Entity::Entity(){
 	_bodyDef.linearDamping = 0;
 	_bodyDef.awake = true;
 
-
 	MainEngine::GetInstance()->AddEntityList(this);
 }
 Entity::~Entity() {

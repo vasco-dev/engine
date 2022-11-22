@@ -16,7 +16,7 @@ PlayerControlledEntity::PlayerControlledEntity() : ControlledEntity() {
 	_currentTileX = 0;
 	_currentTileY = 0;
 
-
+	bulletOffset = { _tileWidth * 0.33f, -30};
 
 	startPos = b2Vec2(96, 96);
 
