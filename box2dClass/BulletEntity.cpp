@@ -40,13 +40,6 @@ void  BulletEntity::EntityStart() {
 
 	_body->SetBullet(true);
 
-	b2MassData massData;
-	massData.mass = 0.1;
-
-	_body->SetMassData(&massData);	
-
-	_body->SetType(b2_kinematicBody);
-
 	_bodyShape.SetAsBox(_tileWidth / 5.f, _tileHeight / 5.f);
 
 }

@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Asteroid.cpp" />
     <ClCompile Include="Background.cpp" />
     <ClCompile Include="PlayerCharacter.cpp" />
     <ClCompile Include="start.cpp" />
@@ -29,6 +30,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Asteroid.h" />
     <ClInclude Include="Background.h" />
     <ClInclude Include="PlayerCharacter.h" />
   </ItemGroup>

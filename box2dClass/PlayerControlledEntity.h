@@ -41,7 +41,7 @@ class PlayerControlledEntity : public ControlledEntity
 		b2Vec2 bulletOffset = { _tileWidth / 2, -30 };
 
 		std::vector<BulletEntity*> _bulletList;
-		int _maxBulletCount = 5;
+		int _maxBulletCount = 10;
 
 };
 

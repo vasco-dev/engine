@@ -1,9 +1,11 @@
 #pragma once
 #include "PlayerControlledEntity.h"
-class PlayerCharacter : public PlayerControlledEntity
-{
-public:
-	PlayerCharacter();
 
+
+
+class PlayerCharacter : PlayerControlledEntity{
+	public:
+		PlayerCharacter();
+		~PlayerCharacter();
 };
 

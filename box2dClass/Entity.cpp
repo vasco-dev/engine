@@ -17,8 +17,6 @@ Entity::Entity(){
 	_currentTileX = 0;
 	_currentTileY = 0;
 
-	startPos = b2Vec2(96, 96);
-
 	_bodyDef.enabled = true;
 	_bodyDef.type = b2_dynamicBody;
 	_bodyDef.position = startPos;
@@ -27,6 +25,13 @@ Entity::Entity(){
 	_bodyDef.awake = true;
 
 	MainEngine::GetInstance()->AddEntityList(this);
+
+	_body = MainEngine::GetInstance()->GetWorld()->CreateBody(&_bodyDef);
+
+	if (&_body == nullptr) {
+		std::cout << "body failed" << std::endl;
+		throw InitError();
+	}
 }
 Entity::~Entity() {
 
@@ -99,12 +104,7 @@ void Entity::EntityStart() {
 
 	//std::cout << "entity started" << std::endl;
 
-	_body = MainEngine::GetInstance()->GetWorld()->CreateBody(&_bodyDef);
 
-	if (&_body == nullptr) {
-		std::cout << "body failed" << std::endl;
-		throw InitError();
-	}
 
 	_bodyShape.SetAsBox(_tileWidth / 2.f / 64.f, _tileHeight / 2.f / 64.f);
 

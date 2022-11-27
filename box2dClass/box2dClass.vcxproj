@@ -139,6 +139,7 @@
     <ClCompile Include="BulletEntity.cpp" />
     <ClCompile Include="ControlledEntity.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="FlyingEntity.cpp" />
     <ClCompile Include="InitError.cpp" />
     <ClCompile Include="MainEngine.cpp" />
     <ClCompile Include="PlayerControlledEntity.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="BulletEntity.h" />
     <ClInclude Include="ControlledEntity.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="FlyingEntity.h" />
     <ClInclude Include="GameLoop.h" />
     <ClInclude Include="InitError.h" />
     <ClInclude Include="MainEngine.h" />

@@ -14,7 +14,6 @@ class Entity
 		~Entity();
 
 		b2Body* _body;
-		b2Vec2 startPos;
 		b2Transform transform;
 
 	public:
@@ -49,7 +48,10 @@ class Entity
 		int _tileMapRow = 0;
 
 		int _currentTileX = 0;
-		int _currentTileY = 0;
+		int _currentTileY = 0;		
+		
+		b2Vec2 startPos = {100, 100};
+
 
 	protected:
 		bool NextTileFrame();

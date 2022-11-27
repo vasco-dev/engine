@@ -16,9 +16,7 @@ PlayerControlledEntity::PlayerControlledEntity() : ControlledEntity() {
 	_currentTileX = 0;
 	_currentTileY = 0;
 
-	bulletOffset = { _tileWidth * 0.33f, -30};
-
-	startPos = b2Vec2(96, 96);
+	bulletOffset = { _tileWidth*0.4f, -20};
 
 	vel = 2000.f;
 
@@ -26,6 +24,11 @@ PlayerControlledEntity::PlayerControlledEntity() : ControlledEntity() {
 
 	EntityStart();
 }
+PlayerControlledEntity::~PlayerControlledEntity(){
+
+}
+
+
 void  PlayerControlledEntity::EntityStart(){
 	Entity::EntityStart();
 
@@ -54,7 +57,6 @@ void PlayerControlledEntity::EntityEventUpdate(SDL_Event* event) {
 		case SDL_KEYDOWN: InputHandler(&event->key, true); break;
 		case SDL_KEYUP: InputHandler(&event->key, false); break;
 	}
-
 
 	//std::cout << "player x : " << _body->GetPosition().x << "player y : " << _body->GetPosition().y << std::endl;
 
