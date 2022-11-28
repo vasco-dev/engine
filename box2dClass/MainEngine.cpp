@@ -113,6 +113,7 @@ void MainEngine::EventUpdate() {
 		}
 	}
 }
+
 void MainEngine::Update() {
 
 	_currentTicks = SDL_GetTicks() - _startTicks;
