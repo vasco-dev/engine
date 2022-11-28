@@ -4,12 +4,12 @@
 #include "Entity.h"
 #include "PlayerCharacter.h"
 #include "Background.h"
-#include "Asteroid.h"
+#include "AsteroidSpawner.h"
 #include "FlyingEntity.h"
 
 static Background* _background = nullptr;
 
-static Asteroid* _asteroidSpawner = nullptr;
+static AsteroidSpawner* _asteroidSpawner = nullptr;
 
 static PlayerCharacter* _playerCharacter = nullptr;
 
@@ -19,12 +19,12 @@ void AddEntities() {
 
 	_background = new Background;
 
-	_asteroidSpawner = new Asteroid;
+	_asteroidSpawner = new AsteroidSpawner;
 
 	_playerCharacter = new PlayerCharacter;
 
 }
-
+ 
 
 
 int main(int argv, char** args) {

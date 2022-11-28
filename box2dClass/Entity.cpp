@@ -50,6 +50,7 @@ bool Entity::CreateTexture() {
 
 	return true;
 }
+
 bool Entity::RenderTexture(bool autoSkipFrames, int frameToJumpX, int frameToJumpY, bool isFullcreen) {
 	
 	if (autoSkipFrames == false) {

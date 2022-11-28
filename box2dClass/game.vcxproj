@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Asteroid.cpp" />
+    <ClCompile Include="AsteroidSpawner.cpp" />
     <ClCompile Include="Background.cpp" />
     <ClCompile Include="PlayerCharacter.cpp" />
     <ClCompile Include="start.cpp" />
@@ -31,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Asteroid.h" />
+    <ClInclude Include="AsteroidSpawner.h" />
     <ClInclude Include="Background.h" />
     <ClInclude Include="PlayerCharacter.h" />
   </ItemGroup>
